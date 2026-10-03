@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Streamlit config
+.streamlit/
+
+# OS/Editor specific
+.DS_Store
+.vscode/
