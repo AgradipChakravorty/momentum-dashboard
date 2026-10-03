@@ -2,3 +2,4 @@ yfinance>=0.2.38
 pandas>=2.0.0
 mysql-connector-python>=8.0.30
 streamlit>=1.30.0
+streamlit-autorefresh>=1.0.1
