@@ -14,7 +14,7 @@ def get_db_connection():
         user=os.getenv("DB_USER", "root"),
         password=os.getenv("DB_PASS", ""),
         database=os.getenv("DB_NAME", "defaultdb"),
-        ssl_disabled=False  # Required for Aiven SSL connections
+        ssl_disabled=False
     )
 
 def initialize_database():
